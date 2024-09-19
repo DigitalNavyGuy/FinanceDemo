@@ -15,11 +15,11 @@
 }
 
 .blob-1 {
-  @apply absolute w-80 h-80 top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full bg-color-blob;
+  @apply absolute w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full bg-color-blob;
 }
 
 .blob-2 {
-  @apply absolute w-80 h-80 bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full bg-color-secondary;
+  @apply absolute w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full bg-color-secondary;
 }
 
 .user-text {
